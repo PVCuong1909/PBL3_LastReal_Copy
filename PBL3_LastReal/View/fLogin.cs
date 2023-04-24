@@ -29,17 +29,18 @@ namespace PBL3_LastReal
             var query1 = db.Accounts.Where(p => p.Username == TaiKhoan && p.Password == MatKhau && p.Type != null).FirstOrDefault();
             if (tb_username.Text == "" || tb_password.Text == "" || (tb_username.Text == "" && tb_password.Text == ""))
             {
+                // shahdsahdlaskdks
             }
             else
             {
-                try
+                try//jsajdkjsahdsa
                 {
                     if (query1.Username == TaiKhoan && query1.Password == MatKhau)
                     {
                         if (query1.Type == 0)
                         {
                             this.Hide();
-                            fAdmin form = new fAdmin();
+                            fAdmin form = new fAdmin();//jhsahdsaj
                             form.ShowDialog();
                             this.Close();
                         }
