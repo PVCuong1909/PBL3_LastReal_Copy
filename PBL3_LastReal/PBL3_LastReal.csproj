@@ -77,12 +77,6 @@
     <Compile Include="View\fClientPassword.Designer.cs">
       <DependentUpon>fClientPassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\fLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\fLogin.Designer.cs">
-      <DependentUpon>fLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -103,9 +97,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\fClientPassword.resx">
       <DependentUpon>fClientPassword.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\fLogin.resx">
-      <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
