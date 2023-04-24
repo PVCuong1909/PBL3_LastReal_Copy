@@ -29,7 +29,6 @@ namespace PBL3_LastReal
             var query1 = db.Accounts.Where(p => p.Username == TaiKhoan && p.Password == MatKhau && p.Type != null).FirstOrDefault();
             if (tb_username.Text == "" || tb_password.Text == "" || (tb_username.Text == "" && tb_password.Text == ""))
             {
-                MessageBox.Show("Vui longf nhaap day du!");
             }
             else
             {
